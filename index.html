@@ -3,212 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishal | Full Stack Developer</title>
+    <title>Vishal Techno Powers</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-            color: #fff;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-        }
-        nav {
             display: flex;
-            justify-content: space-between;
-            padding: 20px 50px;
-            background: rgba(0,0,0,0.3);
+            justify-content: center;
+            align-items: center;
+            color: white;
         }
-        nav h2 { color: #00d9ff; }
-        nav ul { display: flex; list-style: none; gap: 30px; }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-        nav ul li a:hover { color: #00d9ff; }
-        
-        .hero {
+        .container {
             text-align: center;
-            padding: 100px 20px;
-        }
-        .hero h1 {
-            font-size: 60px;
-            margin-bottom: 20px;
-        }
-        .hero h1 span { color: #00d9ff; }
-        .hero p {
-            font-size: 20px;
-            color: #ccc;
-            max-width: 700px;
-            margin: 0 auto 30px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background: #00d9ff;
-            color: #000;
-            text-decoration: none;
-            border-radius: 30px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background: #fff;
-            transform: scale(1.05);
-        }
-        
-        section {
-            padding: 80px 50px;
-        }
-        section h2 {
-            text-align: center;
-            font-size: 40px;
-            margin-bottom: 50px;
-            color: #00d9ff;
-        }
-        
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        .skill-card {
+            padding: 40px;
             background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            transition: 0.3s;
-            border: 1px solid rgba(0,217,255,0.3);
-        }
-        .skill-card:hover {
-            transform: translateY(-10px);
-            background: rgba(0,217,255,0.2);
-        }
-        .skill-card h3 { color: #00d9ff; margin-bottom: 10px; }
-        
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .project-card {
-            background: rgba(255,255,255,0.1);
-            padding: 30px;
-            border-radius: 15px;
-            border: 1px solid rgba(0,217,255,0.3);
-            transition: 0.3s;
-        }
-        .project-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(0,217,255,0.3);
-        }
-        .project-card h3 { color: #00d9ff; margin-bottom: 15px; }
-        .project-card p { color: #ccc; margin-bottom: 15px; }
-        .tags { display: flex; gap: 10px; flex-wrap: wrap; }
-        .tag {
-            background: rgba(0,217,255,0.2);
-            padding: 5px 15px;
             border-radius: 20px;
-            font-size: 12px;
-            color: #00d9ff;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            max-width: 600px;
         }
-        
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: rgba(0,0,0,0.5);
+        h1 { font-size: 3em; margin-bottom: 20px; }
+        p { font-size: 1.2em; margin: 10px 0; }
+        .badge {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #fff;
+            color: #764ba2;
+            border-radius: 50px;
+            margin-top: 20px;
+            font-weight: bold;
         }
-        footer a { color: #00d9ff; text-decoration: none; margin: 0 10px; }
+        .social { margin-top: 30px; }
+        .social a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <h2>&lt;Vishal /&gt;</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section class="hero" id="about">
-        <h1>Hi, I'm <span>Vishal</span></h1>
-        <p>A passionate Full Stack Developer specializing in building modern web applications, REST APIs, and scalable software solutions using cutting-edge technologies.</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
-
-    <section id="skills">
-        <h2>Tech Stack & Skills</h2>
-        <div class="skills">
-            <div class="skill-card">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, React.js, Tailwind CSS</p>
-            </div>
-            <div class="skill-card">
-                <h3>Backend</h3>
-                <p>Node.js, Express.js, Python, REST APIs</p>
-            </div>
-            <div class="skill-card">
-                <h3>Database</h3>
-                <p>MongoDB, MySQL, PostgreSQL, Firebase</p>
-            </div>
-            <div class="skill-card">
-                <h3>Tools & DevOps</h3>
-                <p>Git, GitHub, VS Code, Docker, Linux</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>Featured Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>🚀 Portfolio Website</h3>
-                <p>A modern, responsive portfolio built with HTML, CSS, and JavaScript. Hosted on GitHub Pages with custom is-a.dev domain.</p>
-                <div class="tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">JS</span>
-                </div>
-            </div>
-            <div class="project-card">
-                <h3>💻 Web Applications</h3>
-                <p>Building full-stack web applications with modern frameworks, focused on clean UI/UX and optimal performance.</p>
-                <div class="tags">
-                    <span class="tag">React</span>
-                    <span class="tag">Node.js</span>
-                    <span class="tag">MongoDB</span>
-                </div>
-            </div>
-            <div class="project-card">
-                <h3>🔧 Open Source</h3>
-                <p>Contributing to open source projects on GitHub and sharing reusable code with the developer community.</p>
-                <div class="tags">
-                    <span class="tag">Git</span>
-                    <span class="tag">GitHub</span>
-                    <span class="tag">OSS</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <h3 style="color:#00d9ff; margin-bottom:15px;">Let's Connect</h3>
-        <p>📧 systemhaibhai03@gmail.com</p>
-        <div style="margin-top:15px;">
-            <a href="https://github.com/systemhaibhai03-cloud" target="_blank">GitHub</a> |
+    <div class="container">
+        <h1>🚀 Vishal Techno Powers</h1>
+        <p>Welcome to my official website!</p>
+        <p>I am a tech enthusiast and developer passionate about creating amazing digital experiences.</p>
+        <div class="badge">vishaltechnopowers.is-a.dev</div>
+        <div class="social">
+            <a href="https://github.com/systemhaibhai03-cloud">GitHub</a>
             <a href="mailto:systemhaibhai03@gmail.com">Email</a>
         </div>
-        <p style="margin-top:20px; color:#666;">© 2026 Vishal | Built with ❤️ using HTML, CSS & JavaScript</p>
-    </footer>
+        <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+            © 2026 Vishal Techno Powers | Powered by GitHub Pages
+        </p>
+    </div>
 </body>
 </html>
