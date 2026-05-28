@@ -41,6 +41,18 @@
         "vendor_payment": "edit"
       },
       "active": true
+    },
+    {
+      "id": 4,
+      "username": "CRM123",
+      "password": "CRM@123",
+      "name": "crm",
+      "role": "Employee",
+      "perms": {
+        "account_dashboard": "edit",
+        "leave_management": "edit"
+      },
+      "active": true
     }
   ]
 }
