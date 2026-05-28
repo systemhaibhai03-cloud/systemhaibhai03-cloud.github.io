@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "admin123",
+      "password": "panel@902",
       "name": "Administrator",
       "role": "Admin",
       "perms": {
