@@ -17,14 +17,14 @@
     },
     {
       "id": 2,
-      "username": "manager",
-      "password": "manager123",
+      "username": "project",
+      "password": "123",
       "name": "Project Manager",
       "role": "Project Manager",
       "perms": {
-        "account_dashboard": "edit",
-        "leave_management": "view",
-        "expense_management": "view"
+        "account_dashboard": "view",
+        "leave_management": "edit",
+        "expense_management": "edit"
       },
       "active": true
     },
