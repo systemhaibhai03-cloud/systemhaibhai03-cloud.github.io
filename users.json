@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "username": "solar",
+      "password": "panel@902",
+      "displayName": "Admin",
+      "role": "admin",
+      "allowedDashboards": [
+        {
+          "id": "account-dashboard",
+          "view": true,
+          "edit": true
+        },
+        {
+          "id": "leave-management",
+          "view": true,
+          "edit": true
+        },
+        {
+          "id": "expense-management",
+          "view": true,
+          "edit": true
+        },
+        {
+          "id": "vendor-payment",
+          "view": true,
+          "edit": true
+        }
+      ],
+      "createdAt": "2026-05-28T06:46:38.763Z"
+    }
+  ]
+}
