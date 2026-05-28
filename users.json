@@ -29,6 +29,36 @@
         }
       ],
       "createdAt": "2026-05-28T06:46:38.763Z"
+    },
+    {
+      "id": "u1779951553842",
+      "username": "CRM123",
+      "password": "CRM@123",
+      "displayName": "chetna",
+      "role": "manager",
+      "allowedDashboards": [
+        {
+          "id": "account-dashboard",
+          "view": true,
+          "edit": true
+        },
+        {
+          "id": "leave-management",
+          "view": true,
+          "edit": true
+        },
+        {
+          "id": "expense-management",
+          "view": false,
+          "edit": false
+        },
+        {
+          "id": "vendor-payment",
+          "view": false,
+          "edit": false
+        }
+      ],
+      "createdAt": "2026-05-28T06:59:13.842Z"
     }
   ]
 }
