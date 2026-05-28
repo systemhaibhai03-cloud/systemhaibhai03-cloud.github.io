@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "name": "Administrator",
+      "role": "Admin",
+      "perms": {
+        "account_dashboard": "edit",
+        "leave_management": "edit",
+        "expense_management": "edit",
+        "vendor_payment": "edit",
+        "admin_panel": "edit"
+      },
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "manager",
+      "password": "manager123",
+      "name": "Project Manager",
+      "role": "Project Manager",
+      "perms": {
+        "account_dashboard": "edit",
+        "leave_management": "view",
+        "expense_management": "view"
+      },
+      "active": true
+    },
+    {
+      "id": 3,
+      "username": "accounts",
+      "password": "accounts123",
+      "name": "Accounts Team",
+      "role": "Accounts",
+      "perms": {
+        "account_dashboard": "view",
+        "vendor_payment": "edit"
+      },
+      "active": true
+    }
+  ]
+}
