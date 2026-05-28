@@ -22,7 +22,7 @@
       "name": "Project Manager",
       "role": "Project Manager",
       "perms": {
-        "account_dashboard": "view",
+        "account_dashboard": "edit",
         "leave_management": "edit",
         "expense_management": "edit"
       },
