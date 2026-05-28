@@ -30,12 +30,14 @@
     },
     {
       "id": 3,
-      "username": "accounts",
-      "password": "accounts123",
+      "username": "solar",
+      "password": "panel@902",
       "name": "Accounts Team",
       "role": "Accounts",
       "perms": {
-        "account_dashboard": "view",
+        "account_dashboard": "edit",
+        "leave_management": "edit",
+        "expense_management": "edit",
         "vendor_payment": "edit"
       },
       "active": true
