@@ -54,5 +54,19 @@
       },
       "active": true
     }
+  ],
+  "queries": [
+    {
+      "id": "1780050096399",
+      "userId": 4,
+      "userName": "crm",
+      "userRole": "Employee",
+      "subject": "NOT WORKING",
+      "category": "General",
+      "message": "NOT WORKING PROPERLY",
+      "status": "open",
+      "ts": 1780050096399,
+      "replies": []
+    }
   ]
 }
