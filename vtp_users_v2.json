@@ -82,8 +82,8 @@
       "userRole": "Project Manager",
       "subject": "IOCL Panipat Refiner - LD related",
       "category": "General",
-      "message": "Ã¢ÂÂ¹27,89,438.10, this is wrong plz check",
-      "status": "open",
+      "message": "ÃÂ¢ÃÂÃÂ¹27,89,438.10, this is wrong plz check",
+      "status": "resolved",
       "ts": 1780058170410,
       "replies": [
         {
@@ -94,7 +94,7 @@
         },
         {
           "from": "admin",
-          "text": "₹13,94,719.05\t LD Amount its show in panipat refinery",
+          "text": "â¹13,94,719.05\t LD Amount its show in panipat refinery",
           "ts": 1780058802049,
           "name": "Administrator"
         }
