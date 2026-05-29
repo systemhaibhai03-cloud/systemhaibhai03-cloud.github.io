@@ -17,8 +17,8 @@
     },
     {
       "id": 2,
-      "username": "project",
-      "password": "123",
+      "username": "Project123",
+      "password": "Project@123",
       "name": "Project Manager",
       "role": "Project Manager",
       "perms": {
