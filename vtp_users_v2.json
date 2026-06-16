@@ -120,7 +120,7 @@
       "subject": "LD at Dashboard , for every manager shows error",
       "category": "Technical",
       "message": "LA amount dashboard pe har manager k hisab se shi nhi dikha rha hai, Jo total LD Value hai, whi managers ki LD dikha raha hai",
-      "status": "open",
+      "status": "resolved",
       "ts": 1781074497037,
       "replies": [
         {
